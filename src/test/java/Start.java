@@ -5,6 +5,13 @@ import org.testng.annotations.Test;
 public class Start {
 
     WebDriver wd;
+   /* @BeforeClass
+    public void setUp(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        wd = new ChromeDriver(options);
+
+        wd.get("https://telranedu.web.app/login");*/
 
     @Test
     public void start1(){
